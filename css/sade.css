@@ -209,6 +209,14 @@ ul, ol, li {
 
 /* Background Settings */
 
+
+
+.dark-s1{
+  background-color: #21252b;
+  color: #dedede;
+}
+
+
 .bg-dark{
   background-color: #000000;
 }
