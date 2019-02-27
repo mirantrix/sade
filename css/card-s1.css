@@ -6,10 +6,16 @@
 }
 
 
+
+
+/* Card Styles */
+
+
+/* Generic Style */
+
 .card-style-name{
   color: #ffffff;
   background-color: #000000;
-  border-radius: .25rem;
 }
 
 .card-style-name h3{
@@ -20,6 +26,80 @@
 .card-style-name p{
   margin: 0 0 1rem 0;
 }
+
+
+
+/* Style: 1 */
+
+
+.card-style-1{
+  color: #abb2be;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  min-height: 30rem;
+  margin: 3rem 0;
+}
+
+.card-style-1 h2{
+  color: #000000;
+  font-size: 1.8rem;
+}
+
+.card-style-1 h6{
+  color: #abb2be;
+  font-size: .8rem;
+}
+
+.card-style-1 p{
+}
+
+/* Style: insta-post */
+
+.card-insta-post{
+
+}
+
+
+.card-insta-post .post-header{
+  margin: 1rem;
+  line-height: 1.3rem;
+}
+
+.card-insta-post .post-user-name{
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.card-insta-post .post-location{
+  font-size: .8rem;
+}
+
+.user-post-picture{
+  width: 3rem;
+  height: 3rem;
+}
+
+
+.icon-official {
+  width: 1rem;
+  height: 1rem;
+}
+
+
+
+.card-insta-post .comments{
+  line-height: 2rem;
+}
+
+.card-insta-post .hashtag{
+  color: #ff006c;
+}
+
+.card-insta-post .post-date{
+  font-size: .8rem;
+  color: #777d87;
+}
+
 
 
 

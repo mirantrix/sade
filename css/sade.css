@@ -183,7 +183,7 @@ ul, ol, li {
 
 /* Button Settings */
 .btn-md{
-  padding: .8rem 1rem;
+
 }
 
 
@@ -191,6 +191,24 @@ ul, ol, li {
   background-color: #007bff;
   color: #ffffff;
   border-radius: .3rem;
+  padding: .8rem 1rem;
+}
+
+
+.btn-pill{
+  background-color: #fc1157;
+  color: #ffffff;
+  border-radius: 3rem;
+  padding: .8rem 2rem;
+}
+
+
+
+.btn-pill-grad{
+  background-image: linear-gradient(to right, #ff006c , #fc11a6);
+  color: #ffffff;
+  border-radius: 5rem;
+  padding: .8rem 2rem;
 }
 
 
@@ -198,6 +216,57 @@ ul, ol, li {
 
 .min-padding{
   padding: 1.25rem;
+}
+
+.pr-xs{
+  padding-right: .5rem;
+}
+
+.pr-sm{
+  padding-right: 1rem;
+}
+
+.pr-md{
+  padding-right: 1.5rem;
+}
+
+.pb-sm{
+  padding-bottom: 1rem;
+}
+
+.pb-md{
+  padding-bottom: 1.5rem;
+}
+
+.pb-lg{
+  padding-bottom: 3rem;
+}
+
+
+.my-md{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.my-lg{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.mb-sm{
+  margin-bottom: 1rem;
+}
+
+.mb-md{
+  margin-bottom: 1.5rem;
+}
+
+.mb-lg{
+  margin-bottom: 3rem;
+}
+
+.mt-sm{
+  margin-top: 1rem;
 }
 
 /* transparency Settings */
@@ -212,9 +281,16 @@ ul, ol, li {
 
 
 .dark-s1{
-  background-color: #21252b;
+  background-color: #202329;
   color: #dedede;
 }
+
+.dark-s2{
+  background-color: #1a1d21;
+  color: #dedede;
+}
+
+
 
 
 .bg-dark{
