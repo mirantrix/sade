@@ -1,0 +1,148 @@
+
+body{
+  max-width: 600px;
+  background-color: #19222b;
+  color: #FFFFFF;
+  margin: 0 auto;
+}
+
+footer{
+  background-color: #000000;
+  font-family: "Monda", monospace;
+}
+
+.header{
+  height: 2rem;
+  width: 100%;
+  background-color: #00db62;
+}
+
+#team-cards{
+  min-width: 300px;
+}
+
+#team-cards article{
+  font-family: 'Monda', monospace;
+  padding: 3rem 0;
+}
+
+.teams{
+  display: flex;
+  letter-spacing: .1rem;
+  flex-direction: column;
+  font-family: 'Syncopate', monospace;
+}
+
+.team{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.team h3{
+  display: flex;
+  font-size: 2rem;
+  margin-top: .2rem;
+  line-height: 0rem;
+  padding-left: 1rem;
+}
+
+.team-icon{
+  height: 2rem;
+  width: 2rem;
+}
+
+
+.match-date{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.month{
+  line-height: 1rem;
+}
+
+.date{
+  font-size: 2rem;
+  margin-top: .7rem;
+  line-height: 1rem;
+  font-family: 'Syncopate', monospace;
+  font-weight: 700;
+}
+
+.time{
+  color: #7d9cbb;
+  font-size: 1rem;
+}
+
+.brd-1{
+  display: block;
+  border: .1rem solid #005e2a;
+}
+
+.brd-2{
+  display: block;
+  border: .1rem solid #00b250;
+}
+
+.brd-3{
+  display: block;
+  border: .1rem solid #00ff72;
+}
+
+
+.more-details{
+  display: flex;
+  justify-content: center;
+}
+
+.more-details span{
+  color: #5a748e;
+  display: inline-block;
+  border: .1rem solid #5a748e;
+  border-radius: 1rem;
+  padding: 0rem 1rem .2rem;
+}
+
+.game-emojis{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.emoji-icon{
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: .5rem;
+}
+
+.match-type{
+  color: #7d9cbb;
+}
+
+@font-face {
+  font-family: 'FFF World Cup 2018 Adidas', monospace;
+  src: url("./public/fonts/adidas-mexico.ttf") format('ttf');
+}
+
+/* Responsive Breakpoints */
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+  #team-cards{
+    min-width: 500px;
+    max-width: 700px;
+  }
+
+  #team-cards article{
+    padding: 3rem 3rem;
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}

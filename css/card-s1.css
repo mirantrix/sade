@@ -1,12 +1,6 @@
 
 /* Card Component */
 
-#card{
-  font-size: 1.2rem;
-}
-
-
-
 
 /* Card Styles */
 
@@ -103,15 +97,160 @@
 
 
 
+
+/* Style: teamVsTeam */
+
+.t-vs-t{
+  border: .05rem solid #444444;
+  border-radius: .3rem;
+}
+
+.t-vs-t:hover{
+  border: .05rem solid  #2afd9c;
+}
+
+
+
+.t-vs-t img{
+  border-radius: 3rem;
+  width: 4rem;
+  height: 4rem;
+}
+
+.t-vs-t h2{
+  background-color: #1a1d21;
+  border-radius: .5rem;
+  width: 4rem;
+  height: 4rem;
+}
+
+
+.t-vs-t h3{
+  font-family: 'Syncopate', monospace;
+
+}
+
+.tournament{
+  border-top: .05rem solid #292d34;
+  color: #888888;
+  font-size: .8rem;
+}
+
+.t-vs-t .match-time{
+  font-size: .8rem;
+  color: #ffffff;
+}
+
+.t-vs-t .outline{
+  /*border: 2px solid #292d34;
+  border-radius: .3rem;*/
+  padding: 1rem 1rem;
+}
+
+
+
+.t-vs-t .match-month{
+  color: #999999;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+}
+
+.t-vs-t .match-date{
+  color: #FFFFFF;
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 1.6rem;
+}
+
+.t-vs-t .amPm{
+  font-size: .8rem;
+  font-weight: 400;
+}
+
+
+.line-div-sm{
+  background-color: #ffffff;
+  height: .1rem;
+  width: 100%;
+}
+
+.moreLess{
+  border: 1px solid #555555;
+  border-radius: 2px;
+  padding: .1rem .5rem .2rem .5rem;
+  line-height: 1rem;
+}
+
+.moreLess:hover{
+  color: #000000;
+  background-color:#2afd9c;
+  border: 1px solid #2afd9c;;
+}
+
+
+
 /* Responsive Breakpoints */
 @media (min-width: 576px) {
-  #card{
-    font-size: 1.5rem;
-  }
 
 }
 
 @media (min-width: 768px) {
+
+  body{
+    max-width: 828px;
+    margin: 0 auto;
+  }
+
+  .card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .t-vs-t{
+    margin-left: .5rem;
+    margin-right: .5rem;
+    width: 350px;
+
+  }
+
+  .footer{
+    padding: 10rem 0 4rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer-brand{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+  }
+
+  .footer-description{
+    margin: 0 auto;
+  }
+
+  .footer-brand-name{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5rem;
+    padding-top: .5rem;
+    padding-left: 1rem;
+  }
+
+  .tags{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .tags ul{
+    padding-right: 2rem;
+  }
+
+  .footer-legal{
+  }
+
 }
 
 @media (min-width: 992px) {

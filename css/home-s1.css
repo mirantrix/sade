@@ -1,0 +1,23 @@
+
+
+body{
+  font-family: 'Monda', monospace;
+}
+
+
+h1{
+  color: #FFFFFF;
+  font-size: 3rem;
+  font-family: 'Syncopate', monospace;
+  letter-spacing: .2rem;
+}
+
+.subtitle{
+  color: #777777;
+  font-size: 1rem;
+}
+
+
+.siSePuede{
+  color: #2afd9c;
+}

@@ -1,0 +1,48 @@
+
+body{
+  line-height: 1rem;
+}
+
+.skew-right-40{
+  border-top: 3rem solid #00ff87;
+  border-left: 3rem solid black;
+}
+
+.skew-left-40{
+   border-right: 2rem solid transparent;
+}
+
+.bdr-top-m{
+  border-top: 3rem solid #1a1d21;
+}
+
+.z-1{
+  z-index: -1;
+}
+
+.hgt-md{
+  height: 1.5rem;
+}
+
+.hgt-lg{
+  height: 3rem;
+}
+
+.n-margin{
+  z-index: -1000;
+  margin-left: -2rem;
+  padding-left: 1.25rem;
+}
+
+
+.bg-mex-team{
+  background-color: #2afd9c;
+}
+
+
+.team-name{
+  font-size: 1.8rem;
+  font-family: 'Syncopate', monospace;
+  font-weight: 700;
+  margin-top: .3rem;
+}

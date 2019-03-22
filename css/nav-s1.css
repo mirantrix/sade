@@ -1,7 +1,7 @@
 
 /* Nav Component */
 
-#nav{
+.nav{
   background-color: #dedede;
   font-size: 1.2rem;
   color: #dedede;
@@ -44,7 +44,7 @@
 
 /* Responsive Breakpoints */
 @media (min-width: 576px) {
-  #nav{
+  .nav{
     font-size: 1.5rem;
   }
 

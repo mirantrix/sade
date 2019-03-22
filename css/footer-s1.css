@@ -1,49 +1,50 @@
 
 /* Nav Component */
 
-#footer{
+.footer{
   color: #abb2be;
   line-height: 3rem;
   padding: 4rem 0 1rem 0;
 }
 
-#footer h3{
+.footer h3{
   color: #FFFFFF;
 }
 
-#footer h4{
+.footer h4{
   color: #FFFFFF;
   font-size: 1rem;
   letter-spacing: 0.05rem;
 }
 
-#footer-description{
+.footer-description{
   line-height: 2rem;
 }
 
-#footer-legal{
+.footer-legal{
   border-top: .05rem solid #292d34;
   padding-top: 1rem;
 }
 
-#footer-legal span{
+.footer-legal span{
   color: #777d87;
   font-size: .9rem;
   padding-right: .5rem;
 }
 
-#footer-social-media .footer-link{
+.footer-social-media .footer-link{
   margin: 0 2rem 0 0;
 }
 
 
-#footer-brand{
+.footer-brand{
   line-height: 2rem;
 }
 
-#footer-brand img{
-  height: 4rem;
-  width: 4rem;
+.footer-brand img{
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
   margin: 0 0 1rem 0;
 }
 
