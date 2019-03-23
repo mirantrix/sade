@@ -230,16 +230,46 @@ ul, ol, li {list-style-type: none;}
 
 /* Margin Settings */
 /* Margin X */
-.mx-xs{ margin: 0 .5rem;}
-.mx-sm{ margin: 0 1rem;}
-.mx-md{ margin: 0 1.5rem;}
-.mx-lg{ margin: 0 3rem;}
+.mx-xs{
+  margin-right: .5rem;
+  margin-left: .5rem;
+}
+
+.mx-sm{
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.mx-md{
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.mx-lg{
+  margin-right: 3rem;
+  margin-left: 3rem;
+}
 
 /* Margin Y */
-.my-xs{ margin: .5rem 0;}
-.my-sm{ margin: 1rem 0;}
-.my-md{ margin: 1.5rem 0;}
-.my-lg{ margin: 3rem 0;}
+.my-xs{
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.my-sm{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.my-md{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.my-lg{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
 
 /* Margin Top */
 .mt-xs{ margin-top: .5rem;}
@@ -267,16 +297,46 @@ ul, ol, li {list-style-type: none;}
 
 /* Padding Settings */
 /* Padding X */
-.px-xs{ padding: 0 .5rem;}
-.px-sm{ padding: 0 1rem;}
-.px-md{ padding: 0 1.5rem;}
-.px-lg{ padding: 0 3rem;}
+.px-xs{
+  padding-right: .5rem;
+  padding-left: .5rem;
+}
 
-/* Padding Y */
-.py-xs{ padding: .5rem 0;}
-.py-sm{ padding: 1rem 0;}
-.py-md{ padding: 1.5rem 0;}
-.py-lg{ padding: 3rem 0;}
+.px-sm{
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.px-md{
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.px-lg{
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+
+/* Margin Y */
+.py-xs{
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.py-sm{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-md{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.py-lg{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
 
 /* Padding Top */
 .pt-xs{ padding-top: .5rem;}

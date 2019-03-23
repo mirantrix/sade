@@ -1,0 +1,89 @@
+
+#header{
+  background-color: #24292d;
+  margin: 0 auto;
+  width: 100%;
+  min-height: 48px;
+}
+
+.header-container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  background-color: #24292d;
+  color: #dedede;
+  width: 90%;
+}
+
+.nav {
+  display: none;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid #24292d;
+}
+
+.menu-button {
+  display: flex;
+  flex-direction: column;
+  font-size: .8rem;
+  border: 1px solid #3f4447;
+  border-radius: 1rem;
+  margin-left: auto;
+  padding: .5rem 1rem;
+}
+
+.brand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-height: 48px;
+}
+
+.brand figure{
+  background-color: #dedede;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin-right: .5rem;
+}
+
+
+
+/* Responsive Breakpoints */
+@media (min-width: 576px) {
+  .header-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    width: 70%;
+  }
+
+  .menu-button {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+  .header-container{
+    margin: 0 auto;
+    max-width: 1300px;
+  }
+  .nav {
+    width: 30%;
+  }
+}
+
+@media (min-width: 1200px) {
+}
